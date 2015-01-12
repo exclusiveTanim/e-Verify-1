@@ -18,6 +18,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    _newacc.layer.borderWidth = .9f;
+    _newacc.layer.borderColor = [[UIColor brownColor]CGColor];
+    _newacc.layer.cornerRadius = 5;
+
 }
 
 - (void)didReceiveMemoryWarning
